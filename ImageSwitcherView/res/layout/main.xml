@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--
+    <Gallery
+        android:id="@+id/Gallery01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </Gallery>
+    -->
+
+    <ImageSwitcher
+        android:id="@+id/ImageSwitcher01"
+        android:layout_width="fill_parent"
+        android:layout_height="347dp"
+        android:layout_weight="1.48"
+        android:background="@drawable/shape2" >
+
+    </ImageSwitcher>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape2"
+        android:gravity="center"
+        android:padding="10dip"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0.6"
+        android:text="Like"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape2"
+        android:gravity="center"
+        android:padding="10dip"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0.6"
+        android:text="Dislike"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
